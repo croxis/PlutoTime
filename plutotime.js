@@ -132,6 +132,20 @@ Module.register("plutotime", {
         latitude: 34.2,
         longitude: -118.1
     },
+    // Define start sequence.
+    start: function() {
+        Log.info("Starting module: " + this.name);
+
+        // Schedule update interval.
+        var self = this;
+        setInterval(function() {
+            self.updateDom();
+        }, 1000);
+
+        // Set locale.
+        moment.locale(config.language);
+
+    },
     // Override dom generator.
     getDom: function() {
         latitude = this.config.latitude;
