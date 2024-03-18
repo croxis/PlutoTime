@@ -4,6 +4,10 @@ Calculates the next time on a clear morning or evening that you can go outside a
 
 The code has been obtained from [NASA's](https://science.nasa.gov/dwarf-planets/pluto/plutotime) website on the topic.
 
+## Screenshot
+
+![Screenshot](screenshot.png)
+
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
