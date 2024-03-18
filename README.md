@@ -15,7 +15,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ```javascript
 modules: [
 	{
-		module: 'plutotime',
+		module: 'PlutoTime',
 		position: 'top_right',	// This can be any of the regions.
 		header: 'Pluto Time',
 		config: {  // Place the latitude and longitude of your mirror

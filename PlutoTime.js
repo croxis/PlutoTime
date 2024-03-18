@@ -127,7 +127,7 @@ function format_date(jd) {
 // End NASA code
 //
 
-Module.register("plutotime", {
+Module.register("PlutoTime", {
     defaults: {
         latitude: 34.2,
         longitude: -118.1
