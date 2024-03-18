@@ -13,15 +13,13 @@ The code has been obtained from [NASA's](https://science.nasa.gov/dwarf-planets/
 To use this module, add it to the modules array in the `config/config.js` file:
 
 ```javascript
-modules: [
-	{
-		module: 'PlutoTime',
-		position: 'top_right',	// This can be any of the regions.
-		header: 'Pluto Time',
-		config: {  // Place the latitude and longitude of your mirror
-                	latitude: 45.5,
-                	longitude: -122.38
-		}
-	}
-]
+    {
+        module: "PlutoTime",
+        position: "top_right", // This can be any of the regions.
+        header: "Pluto Time",
+        config: {  // Place the latitude and longitude of your mirror.
+                 latitude: 45.5,
+                 longitude: -122.38
+        }
+    },
 ```
