@@ -1,6 +1,6 @@
 # Module: PlutoTime
 
-Calculates the next time on a clear morning or evening that you can go outside and experience the brightness of high noon on Pluto.
+**PlutoTime** is a module for [MagicMirror²](https://magicmirror.builders/). It calculates the next time on a clear morning or evening that you can go outside and experience the brightness of high noon on Pluto.
 
 The code has been obtained from [NASA's](https://science.nasa.gov/dwarf-planets/pluto/plutotime) website on the topic.
 
@@ -8,7 +8,16 @@ The code has been obtained from [NASA's](https://science.nasa.gov/dwarf-planets/
 
 ![Screenshot](screenshot.png)
 
-## Using the module
+## Installation
+
+Just clone the module into your modules folder of your MagicMirror²:
+
+```bash
+cd ~/MagicMirror/modules
+git clone https://github.com/croxis/PlutoTime
+```
+
+## Configuration
 
 To use this module, add it to the modules array in the `config/config.js` file:
 
@@ -22,4 +31,13 @@ To use this module, add it to the modules array in the `config/config.js` file:
                  longitude: -122.38
         }
     },
+```
+
+## Update
+
+Go to the module’s folder inside MagicMirror modules folder and pull the latest version from GitHub:
+
+```bash
+cd ~/MagicMirror/modules/PlutoTime
+git pull
 ```
